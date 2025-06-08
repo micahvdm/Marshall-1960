@@ -27,301 +27,301 @@ typedef enum {IN, OUT, ATTENUATE, MODEL,MICPOSITION, DISTANCE}PortIndex;
 /**********************************************************************************************************************************************************/ 
 //AKG_C414B_ULS
 
-const char* AKG_Cap__5  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-0.5in.wav";
-const char* AKG_Cap_00  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-0in.wav";
-const char* AKG_Cap_01  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-1in.wav";
-const char* AKG_Cap_02  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-2in.wav";
-const char* AKG_Cap_03  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-3in.wav";
-const char* AKG_Cap_04  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-4in.wav";
-const char* AKG_Cap_05  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-5in.wav";
-const char* AKG_Cap_06  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-6in.wav";
-const char* AKG_Cap_12  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-12in.wav";
-const char* AKG_CapEdge__5  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-0.5in.wav";
-const char* AKG_CapEdge_00  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-0in.wav";
-const char* AKG_CapEdge_01  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-1in.wav";
-const char* AKG_CapEdge_02  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-2in.wav";
-const char* AKG_CapEdge_03  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-3in.wav";
-const char* AKG_CapEdge_04  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-4in.wav";
-const char* AKG_CapEdge_05  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-5in.wav";
-const char* AKG_CapEdge_06  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-6in.wav";
-const char* AKG_CapEdge_12  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-12in.wav";
-const char* AKG_Cone__5  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-0.5in.wav";
-const char* AKG_Cone_00  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-0in.wav";
-const char* AKG_Cone_01  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-1in.wav";
-const char* AKG_Cone_02  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-2in.wav";
-const char* AKG_Cone_03  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-3in.wav";
-const char* AKG_Cone_04  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-4in.wav";
-const char* AKG_Cone_05  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-5in.wav";
-const char* AKG_Cone_06  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-6in.wav";
-const char* AKG_Cone_12  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-12in.wav";
-const char* AKG_ConeEdge__5  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-0.5in.wav";
-const char* AKG_ConeEdge_00  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-0in.wav";
-const char* AKG_ConeEdge_01  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-1in.wav";
-const char* AKG_ConeEdge_02  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-2in.wav";
-const char* AKG_ConeEdge_03  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-3in.wav";
-const char* AKG_ConeEdge_04  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-4in.wav";
-const char* AKG_ConeEdge_05  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-5in.wav";
-const char* AKG_ConeEdge_06  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-6in.wav";
-const char* AKG_ConeEdge_12  = "/root/.lv2/veja-1960-cab.lv2/IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-12in.wav";
+const char* AKG_Cap__5  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-0.5in.wav";
+const char* AKG_Cap_00  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-0in.wav";
+const char* AKG_Cap_01  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-1in.wav";
+const char* AKG_Cap_02  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-2in.wav";
+const char* AKG_Cap_03  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-3in.wav";
+const char* AKG_Cap_04  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-4in.wav";
+const char* AKG_Cap_05  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-5in.wav";
+const char* AKG_Cap_06  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-6in.wav";
+const char* AKG_Cap_12  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cap-12in.wav";
+const char* AKG_CapEdge__5  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-0.5in.wav";
+const char* AKG_CapEdge_00  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-0in.wav";
+const char* AKG_CapEdge_01  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-1in.wav";
+const char* AKG_CapEdge_02  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-2in.wav";
+const char* AKG_CapEdge_03  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-3in.wav";
+const char* AKG_CapEdge_04  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-4in.wav";
+const char* AKG_CapEdge_05  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-5in.wav";
+const char* AKG_CapEdge_06  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-6in.wav";
+const char* AKG_CapEdge_12  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-CapEdge-12in.wav";
+const char* AKG_Cone__5  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-0.5in.wav";
+const char* AKG_Cone_00  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-0in.wav";
+const char* AKG_Cone_01  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-1in.wav";
+const char* AKG_Cone_02  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-2in.wav";
+const char* AKG_Cone_03  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-3in.wav";
+const char* AKG_Cone_04  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-4in.wav";
+const char* AKG_Cone_05  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-5in.wav";
+const char* AKG_Cone_06  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-6in.wav";
+const char* AKG_Cone_12  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-Cone-12in.wav";
+const char* AKG_ConeEdge__5  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-0.5in.wav";
+const char* AKG_ConeEdge_00  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-0in.wav";
+const char* AKG_ConeEdge_01  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-1in.wav";
+const char* AKG_ConeEdge_02  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-2in.wav";
+const char* AKG_ConeEdge_03  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-3in.wav";
+const char* AKG_ConeEdge_04  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-4in.wav";
+const char* AKG_ConeEdge_05  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-5in.wav";
+const char* AKG_ConeEdge_06  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-6in.wav";
+const char* AKG_ConeEdge_12  = "IR/AKG_C414B_ULS/Marshall1960A-G12Ms-C414-ConeEdge-12in.wav";
 
 //ElectroVoice RE20
 
-const char* EVOICE_Cap__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-0.5in.wav";
-const char* EVOICE_Cap_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-0in.wav";
-const char* EVOICE_Cap_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-1in.wav";
-const char* EVOICE_Cap_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-2in.wav";
-const char* EVOICE_Cap_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-3in.wav";
-const char* EVOICE_Cap_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-4in.wav";
-const char* EVOICE_Cap_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-5in.wav";
-const char* EVOICE_Cap_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-6in.wav";
-const char* EVOICE_Cap_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-12in.wav";
-const char* EVOICE_CapOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-0.5in.wav";
-const char* EVOICE_CapOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-0in.wav";
-const char* EVOICE_CapOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-1in.wav";
-const char* EVOICE_CapOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-2in.wav";
-const char* EVOICE_CapOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-3in.wav";
-const char* EVOICE_CapOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-4in.wav";
-const char* EVOICE_CapOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-5in.wav";
-const char* EVOICE_CapOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-6in.wav";
-const char* EVOICE_CapOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-12in.wav";
-const char* EVOICE_CapEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-0.5in.wav";
-const char* EVOICE_CapEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-0in.wav";
-const char* EVOICE_CapEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-1in.wav";
-const char* EVOICE_CapEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-2in.wav";
-const char* EVOICE_CapEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-3in.wav";
-const char* EVOICE_CapEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-4in.wav";
-const char* EVOICE_CapEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-5in.wav";
-const char* EVOICE_CapEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-6in.wav";
-const char* EVOICE_CapEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-12in.wav";
-const char* EVOICE_CapEdgeOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-0.5in.wav";
-const char* EVOICE_CapEdgeOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-0in.wav";
-const char* EVOICE_CapEdgeOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-1in.wav";
-const char* EVOICE_CapEdgeOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-2in.wav";
-const char* EVOICE_CapEdgeOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-3in.wav";
-const char* EVOICE_CapEdgeOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-4in.wav";
-const char* EVOICE_CapEdgeOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-5in.wav";
-const char* EVOICE_CapEdgeOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-6in.wav";
-const char* EVOICE_CapEdgeOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-12in.wav";
-const char* EVOICE_Cone__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-0.5in.wav";
-const char* EVOICE_Cone_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-0in.wav";
-const char* EVOICE_Cone_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-1in.wav";
-const char* EVOICE_Cone_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-2in.wav";
-const char* EVOICE_Cone_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-3in.wav";
-const char* EVOICE_Cone_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-4in.wav";
-const char* EVOICE_Cone_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-5in.wav";
-const char* EVOICE_Cone_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-6in.wav";
-const char* EVOICE_Cone_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-12in.wav";
-const char* EVOICE_ConeEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-0.5in.wav";
-const char* EVOICE_ConeEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-0in.wav";
-const char* EVOICE_ConeEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-1in.wav";
-const char* EVOICE_ConeEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-2in.wav";
-const char* EVOICE_ConeEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-3in.wav";
-const char* EVOICE_ConeEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-4in.wav";
-const char* EVOICE_ConeEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-5in.wav";
-const char* EVOICE_ConeEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-6in.wav";
-const char* EVOICE_ConeEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-12in.wav";
+const char* EVOICE_Cap__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-0.5in.wav";
+const char* EVOICE_Cap_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-0in.wav";
+const char* EVOICE_Cap_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-1in.wav";
+const char* EVOICE_Cap_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-2in.wav";
+const char* EVOICE_Cap_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-3in.wav";
+const char* EVOICE_Cap_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-4in.wav";
+const char* EVOICE_Cap_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-5in.wav";
+const char* EVOICE_Cap_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-6in.wav";
+const char* EVOICE_Cap_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cap-12in.wav";
+const char* EVOICE_CapOffAxis__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-0.5in.wav";
+const char* EVOICE_CapOffAxis_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-0in.wav";
+const char* EVOICE_CapOffAxis_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-1in.wav";
+const char* EVOICE_CapOffAxis_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-2in.wav";
+const char* EVOICE_CapOffAxis_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-3in.wav";
+const char* EVOICE_CapOffAxis_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-4in.wav";
+const char* EVOICE_CapOffAxis_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-5in.wav";
+const char* EVOICE_CapOffAxis_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-6in.wav";
+const char* EVOICE_CapOffAxis_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapOffAxis-12in.wav";
+const char* EVOICE_CapEdge__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-0.5in.wav";
+const char* EVOICE_CapEdge_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-0in.wav";
+const char* EVOICE_CapEdge_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-1in.wav";
+const char* EVOICE_CapEdge_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-2in.wav";
+const char* EVOICE_CapEdge_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-3in.wav";
+const char* EVOICE_CapEdge_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-4in.wav";
+const char* EVOICE_CapEdge_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-5in.wav";
+const char* EVOICE_CapEdge_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-6in.wav";
+const char* EVOICE_CapEdge_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdge-12in.wav";
+const char* EVOICE_CapEdgeOffAxis__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-0.5in.wav";
+const char* EVOICE_CapEdgeOffAxis_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-0in.wav";
+const char* EVOICE_CapEdgeOffAxis_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-1in.wav";
+const char* EVOICE_CapEdgeOffAxis_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-2in.wav";
+const char* EVOICE_CapEdgeOffAxis_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-3in.wav";
+const char* EVOICE_CapEdgeOffAxis_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-4in.wav";
+const char* EVOICE_CapEdgeOffAxis_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-5in.wav";
+const char* EVOICE_CapEdgeOffAxis_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-6in.wav";
+const char* EVOICE_CapEdgeOffAxis_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-CapEdgeOffAxis-12in.wav";
+const char* EVOICE_Cone__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-0.5in.wav";
+const char* EVOICE_Cone_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-0in.wav";
+const char* EVOICE_Cone_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-1in.wav";
+const char* EVOICE_Cone_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-2in.wav";
+const char* EVOICE_Cone_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-3in.wav";
+const char* EVOICE_Cone_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-4in.wav";
+const char* EVOICE_Cone_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-5in.wav";
+const char* EVOICE_Cone_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-6in.wav";
+const char* EVOICE_Cone_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-Cone-12in.wav";
+const char* EVOICE_ConeEdge__5 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-0.5in.wav";
+const char* EVOICE_ConeEdge_00 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-0in.wav";
+const char* EVOICE_ConeEdge_01 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-1in.wav";
+const char* EVOICE_ConeEdge_02 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-2in.wav";
+const char* EVOICE_ConeEdge_03 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-3in.wav";
+const char* EVOICE_ConeEdge_04 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-4in.wav";
+const char* EVOICE_ConeEdge_05 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-5in.wav";
+const char* EVOICE_ConeEdge_06 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-6in.wav";
+const char* EVOICE_ConeEdge_12 = "IR/Electrovoice_RE20/Marshall1960A-G12Ms-RE20-ConeEdge-12in.wav";
 
 //Neumann KM84
 
-const char* KM84_Cap__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-0.5in.wav";
-const char* KM84_Cap_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-0in.wav";
-const char* KM84_Cap_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-1in.wav";
-const char* KM84_Cap_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-2in.wav";
-const char* KM84_Cap_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-3in.wav";
-const char* KM84_Cap_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-4in.wav";
-const char* KM84_Cap_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-5in.wav";
-const char* KM84_Cap_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-6in.wav";
-const char* KM84_Cap_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-12in.wav";
-const char* KM84_CapEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-0.5in.wav";
-const char* KM84_CapEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-0in.wav";
-const char* KM84_CapEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-1in.wav";
-const char* KM84_CapEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-2in.wav";
-const char* KM84_CapEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-3in.wav";
-const char* KM84_CapEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-4in.wav";
-const char* KM84_CapEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-5in.wav";
-const char* KM84_CapEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-6in.wav";
-const char* KM84_CapEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-12in.wav";
-const char* KM84_Cone__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-0.5in.wav";
-const char* KM84_Cone_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-0in.wav";
-const char* KM84_Cone_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-1in.wav";
-const char* KM84_Cone_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-2in.wav";
-const char* KM84_Cone_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-3in.wav";
-const char* KM84_Cone_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-4in.wav";
-const char* KM84_Cone_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-5in.wav";
-const char* KM84_Cone_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-6in.wav";
-const char* KM84_Cone_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-12in.wav";
-const char* KM84_ConeEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-0.5in.wav";
-const char* KM84_ConeEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-0in.wav";
-const char* KM84_ConeEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-1in.wav";
-const char* KM84_ConeEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-2in.wav";
-const char* KM84_ConeEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-3in.wav";
-const char* KM84_ConeEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-4in.wav";
-const char* KM84_ConeEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-5in.wav";
-const char* KM84_ConeEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-6in.wav";
-const char* KM84_ConeEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-12in.wav";
+const char* KM84_Cap__5 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-0.5in.wav";
+const char* KM84_Cap_00 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-0in.wav";
+const char* KM84_Cap_01 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-1in.wav";
+const char* KM84_Cap_02 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-2in.wav";
+const char* KM84_Cap_03 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-3in.wav";
+const char* KM84_Cap_04 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-4in.wav";
+const char* KM84_Cap_05 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-5in.wav";
+const char* KM84_Cap_06 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-6in.wav";
+const char* KM84_Cap_12 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cap-12in.wav";
+const char* KM84_CapEdge__5 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-0.5in.wav";
+const char* KM84_CapEdge_00 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-0in.wav";
+const char* KM84_CapEdge_01 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-1in.wav";
+const char* KM84_CapEdge_02 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-2in.wav";
+const char* KM84_CapEdge_03 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-3in.wav";
+const char* KM84_CapEdge_04 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-4in.wav";
+const char* KM84_CapEdge_05 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-5in.wav";
+const char* KM84_CapEdge_06 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-6in.wav";
+const char* KM84_CapEdge_12 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-CapEdge-12in.wav";
+const char* KM84_Cone__5 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-0.5in.wav";
+const char* KM84_Cone_00 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-0in.wav";
+const char* KM84_Cone_01 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-1in.wav";
+const char* KM84_Cone_02 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-2in.wav";
+const char* KM84_Cone_03 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-3in.wav";
+const char* KM84_Cone_04 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-4in.wav";
+const char* KM84_Cone_05 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-5in.wav";
+const char* KM84_Cone_06 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-6in.wav";
+const char* KM84_Cone_12 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-Cone-12in.wav";
+const char* KM84_ConeEdge__5 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-0.5in.wav";
+const char* KM84_ConeEdge_00 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-0in.wav";
+const char* KM84_ConeEdge_01 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-1in.wav";
+const char* KM84_ConeEdge_02 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-2in.wav";
+const char* KM84_ConeEdge_03 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-3in.wav";
+const char* KM84_ConeEdge_04 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-4in.wav";
+const char* KM84_ConeEdge_05 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-5in.wav";
+const char* KM84_ConeEdge_06 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-6in.wav";
+const char* KM84_ConeEdge_12 = "IR/Neumann_KM84/Marshall1960A-G12Ms-KM84-ConeEdge-12in.wav";
 
 //Neumann U87
 
-const char* U87_Cap__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-0.5in.wav";
-const char* U87_Cap_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-0in.wav";
-const char* U87_Cap_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-1in.wav";
-const char* U87_Cap_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-2in.wav";
-const char* U87_Cap_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-3in.wav";
-const char* U87_Cap_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-4in.wav";
-const char* U87_Cap_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-5in.wav";
-const char* U87_Cap_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-6in.wav";
-const char* U87_Cap_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-12in.wav";
-const char* U87_CapEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-0.5in.wav";
-const char* U87_CapEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-0in.wav";
-const char* U87_CapEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-1in.wav";
-const char* U87_CapEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-2in.wav";
-const char* U87_CapEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-3in.wav";
-const char* U87_CapEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-4in.wav";
-const char* U87_CapEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-5in.wav";
-const char* U87_CapEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-6in.wav";
-const char* U87_CapEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-12in.wav";
-const char* U87_Cone__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-0.5in.wav";
-const char* U87_Cone_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-0in.wav";
-const char* U87_Cone_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-1in.wav";
-const char* U87_Cone_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-2in.wav";
-const char* U87_Cone_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-3in.wav";
-const char* U87_Cone_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-4in.wav";
-const char* U87_Cone_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-5in.wav";
-const char* U87_Cone_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-6in.wav";
-const char* U87_Cone_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-12in.wav";
-const char* U87_ConeEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-0.5in.wav";
-const char* U87_ConeEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-0in.wav";
-const char* U87_ConeEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-1in.wav";
-const char* U87_ConeEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-2in.wav";
-const char* U87_ConeEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-3in.wav";
-const char* U87_ConeEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-4in.wav";
-const char* U87_ConeEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-5in.wav";
-const char* U87_ConeEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-6in.wav";
-const char* U87_ConeEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-12in.wav";
+const char* U87_Cap__5 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-0.5in.wav";
+const char* U87_Cap_00 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-0in.wav";
+const char* U87_Cap_01 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-1in.wav";
+const char* U87_Cap_02 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-2in.wav";
+const char* U87_Cap_03 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-3in.wav";
+const char* U87_Cap_04 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-4in.wav";
+const char* U87_Cap_05 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-5in.wav";
+const char* U87_Cap_06 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-6in.wav";
+const char* U87_Cap_12 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cap-12in.wav";
+const char* U87_CapEdge__5 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-0.5in.wav";
+const char* U87_CapEdge_00 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-0in.wav";
+const char* U87_CapEdge_01 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-1in.wav";
+const char* U87_CapEdge_02 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-2in.wav";
+const char* U87_CapEdge_03 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-3in.wav";
+const char* U87_CapEdge_04 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-4in.wav";
+const char* U87_CapEdge_05 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-5in.wav";
+const char* U87_CapEdge_06 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-6in.wav";
+const char* U87_CapEdge_12 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-CapEdge-12in.wav";
+const char* U87_Cone__5 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-0.5in.wav";
+const char* U87_Cone_00 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-0in.wav";
+const char* U87_Cone_01 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-1in.wav";
+const char* U87_Cone_02 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-2in.wav";
+const char* U87_Cone_03 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-3in.wav";
+const char* U87_Cone_04 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-4in.wav";
+const char* U87_Cone_05 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-5in.wav";
+const char* U87_Cone_06 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-6in.wav";
+const char* U87_Cone_12 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-Cone-12in.wav";
+const char* U87_ConeEdge__5 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-0.5in.wav";
+const char* U87_ConeEdge_00 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-0in.wav";
+const char* U87_ConeEdge_01 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-1in.wav";
+const char* U87_ConeEdge_02 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-2in.wav";
+const char* U87_ConeEdge_03 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-3in.wav";
+const char* U87_ConeEdge_04 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-4in.wav";
+const char* U87_ConeEdge_05 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-5in.wav";
+const char* U87_ConeEdge_06 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-6in.wav";
+const char* U87_ConeEdge_12 = "IR/Neumann_U87/Marshall1960A-G12Ms-U87-ConeEdge-12in.wav";
 
 //ROYER R121
 
-const char* R121_Cap__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-0.5in.wav";
-const char* R121_Cap_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-0in.wav";
-const char* R121_Cap_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-1in.wav";
-const char* R121_Cap_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-2in.wav";
-const char* R121_Cap_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-3in.wav";
-const char* R121_Cap_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-4in.wav";
-const char* R121_Cap_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-5in.wav";
-const char* R121_Cap_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-6in.wav";
-const char* R121_Cap_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-12in.wav";
+const char* R121_Cap__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-0.5in.wav";
+const char* R121_Cap_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-0in.wav";
+const char* R121_Cap_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-1in.wav";
+const char* R121_Cap_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-2in.wav";
+const char* R121_Cap_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-3in.wav";
+const char* R121_Cap_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-4in.wav";
+const char* R121_Cap_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-5in.wav";
+const char* R121_Cap_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-6in.wav";
+const char* R121_Cap_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cap-12in.wav";
 
-const char* R121_CapOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-0.5in.wav";
-const char* R121_CapOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-0in.wav";
-const char* R121_CapOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-1in.wav";
-const char* R121_CapOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-2in.wav";
-const char* R121_CapOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-3in.wav";
-const char* R121_CapOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-4in.wav";
-const char* R121_CapOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-5in.wav";
-const char* R121_CapOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-6in.wav";
-const char* R121_CapOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-12in.wav";
+const char* R121_CapOffAxis__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-0.5in.wav";
+const char* R121_CapOffAxis_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-0in.wav";
+const char* R121_CapOffAxis_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-1in.wav";
+const char* R121_CapOffAxis_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-2in.wav";
+const char* R121_CapOffAxis_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-3in.wav";
+const char* R121_CapOffAxis_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-4in.wav";
+const char* R121_CapOffAxis_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-5in.wav";
+const char* R121_CapOffAxis_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-6in.wav";
+const char* R121_CapOffAxis_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapOffAxis-12in.wav";
 
-const char* R121_CapEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-0.5in.wav";
-const char* R121_CapEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-0in.wav";
-const char* R121_CapEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-1in.wav";
-const char* R121_CapEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-2in.wav";
-const char* R121_CapEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-3in.wav";
-const char* R121_CapEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-4in.wav";
-const char* R121_CapEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-5in.wav";
-const char* R121_CapEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-6in.wav";
-const char* R121_CapEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-12in.wav";
+const char* R121_CapEdge__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-0.5in.wav";
+const char* R121_CapEdge_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-0in.wav";
+const char* R121_CapEdge_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-1in.wav";
+const char* R121_CapEdge_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-2in.wav";
+const char* R121_CapEdge_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-3in.wav";
+const char* R121_CapEdge_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-4in.wav";
+const char* R121_CapEdge_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-5in.wav";
+const char* R121_CapEdge_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-6in.wav";
+const char* R121_CapEdge_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdge-12in.wav";
 
-const char* R121_CapEdgeOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-0.5in.wav";
-const char* R121_CapEdgeOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-0in.wav";
-const char* R121_CapEdgeOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-1in.wav";
-const char* R121_CapEdgeOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-2in.wav";
-const char* R121_CapEdgeOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-3in.wav";
-const char* R121_CapEdgeOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-4in.wav";
-const char* R121_CapEdgeOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-5in.wav";
-const char* R121_CapEdgeOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-6in.wav";
-const char* R121_CapEdgeOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-12in.wav";
+const char* R121_CapEdgeOffAxis__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-0.5in.wav";
+const char* R121_CapEdgeOffAxis_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-0in.wav";
+const char* R121_CapEdgeOffAxis_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-1in.wav";
+const char* R121_CapEdgeOffAxis_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-2in.wav";
+const char* R121_CapEdgeOffAxis_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-3in.wav";
+const char* R121_CapEdgeOffAxis_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-4in.wav";
+const char* R121_CapEdgeOffAxis_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-5in.wav";
+const char* R121_CapEdgeOffAxis_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-6in.wav";
+const char* R121_CapEdgeOffAxis_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-CapEdgeOffAxis-12in.wav";
 
-const char* R121_Cone__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-0.5in.wav";
-const char* R121_Cone_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-0in.wav";
-const char* R121_Cone_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-1in.wav";
-const char* R121_Cone_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-2in.wav";
-const char* R121_Cone_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-3in.wav";
-const char* R121_Cone_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-4in.wav";
-const char* R121_Cone_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-5in.wav";
-const char* R121_Cone_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-6in.wav";
-const char* R121_Cone_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-12in.wav";
+const char* R121_Cone__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-0.5in.wav";
+const char* R121_Cone_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-0in.wav";
+const char* R121_Cone_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-1in.wav";
+const char* R121_Cone_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-2in.wav";
+const char* R121_Cone_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-3in.wav";
+const char* R121_Cone_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-4in.wav";
+const char* R121_Cone_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-5in.wav";
+const char* R121_Cone_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-6in.wav";
+const char* R121_Cone_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-Cone-12in.wav";
 
-const char* R121_ConeEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-0.5in.wav";
-const char* R121_ConeEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-0in.wav";
-const char* R121_ConeEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-1in.wav";
-const char* R121_ConeEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-2in.wav";
-const char* R121_ConeEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-3in.wav";
-const char* R121_ConeEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-4in.wav";
-const char* R121_ConeEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-5in.wav";
-const char* R121_ConeEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-6in.wav";
-const char* R121_ConeEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-12in.wav";
+const char* R121_ConeEdge__5 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-0.5in.wav";
+const char* R121_ConeEdge_00 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-0in.wav";
+const char* R121_ConeEdge_01 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-1in.wav";
+const char* R121_ConeEdge_02 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-2in.wav";
+const char* R121_ConeEdge_03 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-3in.wav";
+const char* R121_ConeEdge_04 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-4in.wav";
+const char* R121_ConeEdge_05 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-5in.wav";
+const char* R121_ConeEdge_06 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-6in.wav";
+const char* R121_ConeEdge_12 = "IR/Royer_R121/Marshall1960A-G12Ms-R121-ConeEdge-12in.wav";
 
 //SM_57
 
-const char* SM57_Cap_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-0in.wav";
-const char* SM57_Cap__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-0.5in.wav";
-const char* SM57_Cap_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-1in.wav";
-const char* SM57_Cap_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-2in.wav";
-const char* SM57_Cap_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-3in.wav";
-const char* SM57_Cap_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-4in.wav";
-const char* SM57_Cap_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-5in.wav";
-const char* SM57_Cap_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-6in.wav";
-const char* SM57_Cap_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-12in.wav";
+const char* SM57_Cap_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-0in.wav";
+const char* SM57_Cap__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-0.5in.wav";
+const char* SM57_Cap_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-1in.wav";
+const char* SM57_Cap_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-2in.wav";
+const char* SM57_Cap_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-3in.wav";
+const char* SM57_Cap_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-4in.wav";
+const char* SM57_Cap_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-5in.wav";
+const char* SM57_Cap_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-6in.wav";
+const char* SM57_Cap_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cap-12in.wav";
 
-const char* SM57_CapOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-0.5in.wav";
-const char* SM57_CapOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-0in.wav";
-const char* SM57_CapOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-1in.wav";
-const char* SM57_CapOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-2in.wav";
-const char* SM57_CapOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-3in.wav";
-const char* SM57_CapOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-4in.wav";
-const char* SM57_CapOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-5in.wav";
-const char* SM57_CapOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-6in.wav";
-const char* SM57_CapOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-12in.wav";
+const char* SM57_CapOffAxis__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-0.5in.wav";
+const char* SM57_CapOffAxis_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-0in.wav";
+const char* SM57_CapOffAxis_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-1in.wav";
+const char* SM57_CapOffAxis_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-2in.wav";
+const char* SM57_CapOffAxis_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-3in.wav";
+const char* SM57_CapOffAxis_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-4in.wav";
+const char* SM57_CapOffAxis_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-5in.wav";
+const char* SM57_CapOffAxis_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-6in.wav";
+const char* SM57_CapOffAxis_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapOffAxis-12in.wav";
 
-const char* SM57_CapEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-0.5in.wav";
-const char* SM57_CapEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-0in.wav";
-const char* SM57_CapEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-1in.wav";
-const char* SM57_CapEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-2in.wav";
-const char* SM57_CapEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-3in.wav";
-const char* SM57_CapEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-4in.wav";
-const char* SM57_CapEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-5in.wav";
-const char* SM57_CapEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-6in.wav";
-const char* SM57_CapEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-12in.wav";
+const char* SM57_CapEdge__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-0.5in.wav";
+const char* SM57_CapEdge_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-0in.wav";
+const char* SM57_CapEdge_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-1in.wav";
+const char* SM57_CapEdge_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-2in.wav";
+const char* SM57_CapEdge_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-3in.wav";
+const char* SM57_CapEdge_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-4in.wav";
+const char* SM57_CapEdge_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-5in.wav";
+const char* SM57_CapEdge_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-6in.wav";
+const char* SM57_CapEdge_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdge-12in.wav";
 
-const char* SM57_CapEdgeOffAxis__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-0.5in.wav";
-const char* SM57_CapEdgeOffAxis_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-0in.wav";
-const char* SM57_CapEdgeOffAxis_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-1in.wav";
-const char* SM57_CapEdgeOffAxis_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-2in.wav";
-const char* SM57_CapEdgeOffAxis_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-3in.wav";
-const char* SM57_CapEdgeOffAxis_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-4in.wav";
-const char* SM57_CapEdgeOffAxis_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-5in.wav";
-const char* SM57_CapEdgeOffAxis_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-6in.wav";
-const char* SM57_CapEdgeOffAxis_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-12in.wav";
+const char* SM57_CapEdgeOffAxis__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-0.5in.wav";
+const char* SM57_CapEdgeOffAxis_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-0in.wav";
+const char* SM57_CapEdgeOffAxis_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-1in.wav";
+const char* SM57_CapEdgeOffAxis_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-2in.wav";
+const char* SM57_CapEdgeOffAxis_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-3in.wav";
+const char* SM57_CapEdgeOffAxis_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-4in.wav";
+const char* SM57_CapEdgeOffAxis_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-5in.wav";
+const char* SM57_CapEdgeOffAxis_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-6in.wav";
+const char* SM57_CapEdgeOffAxis_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-CapEdgeOffAxis-12in.wav";
 
-const char* SM57_Cone__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-0.5in.wav";
-const char* SM57_Cone_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-0in.wav";
-const char* SM57_Cone_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-1in.wav";
-const char* SM57_Cone_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-2in.wav";
-const char* SM57_Cone_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-3in.wav";
-const char* SM57_Cone_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-4in.wav";
-const char* SM57_Cone_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-5in.wav";
-const char* SM57_Cone_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-6in.wav";
-const char* SM57_Cone_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-12in.wav";
+const char* SM57_Cone__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-0.5in.wav";
+const char* SM57_Cone_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-0in.wav";
+const char* SM57_Cone_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-1in.wav";
+const char* SM57_Cone_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-2in.wav";
+const char* SM57_Cone_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-3in.wav";
+const char* SM57_Cone_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-4in.wav";
+const char* SM57_Cone_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-5in.wav";
+const char* SM57_Cone_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-6in.wav";
+const char* SM57_Cone_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-Cone-12in.wav";
 
-const char* SM57_ConeEdge__5 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-0.5in.wav";
-const char* SM57_ConeEdge_00 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-0in.wav";
-const char* SM57_ConeEdge_01 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-1in.wav";
-const char* SM57_ConeEdge_02 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-2in.wav";
-const char* SM57_ConeEdge_03 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-3in.wav";
-const char* SM57_ConeEdge_04 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-4in.wav";
-const char* SM57_ConeEdge_05 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-5in.wav";
-const char* SM57_ConeEdge_06 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-6in.wav";
-const char* SM57_ConeEdge_12 = "/root/.lv2/veja-1960-cab.lv2/IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-12in.wav";
+const char* SM57_ConeEdge__5 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-0.5in.wav";
+const char* SM57_ConeEdge_00 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-0in.wav";
+const char* SM57_ConeEdge_01 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-1in.wav";
+const char* SM57_ConeEdge_02 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-2in.wav";
+const char* SM57_ConeEdge_03 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-3in.wav";
+const char* SM57_ConeEdge_04 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-4in.wav";
+const char* SM57_ConeEdge_05 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-5in.wav";
+const char* SM57_ConeEdge_06 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-6in.wav";
+const char* SM57_ConeEdge_12 = "IR/Shure_SM57/Marshall1960A-G12Ms-SM57-ConeEdge-12in.wav";
 
 static const char* samplePath[9][6][6];
 
@@ -360,6 +360,7 @@ typedef struct{
     fftwf_plan IRfft;
 
     XXX* xxx;
+    char* bundle_path;
 
 } Cabsim;
 
@@ -368,39 +369,55 @@ typedef struct{
 
 /**********************************************************************************************************************************************************/
 
+// Helper to safely join bundle_path and rel_path
+static char* join_path(const char* bundle_path, const char* rel_path) {
+    size_t bundle_len = strlen(bundle_path);
+    size_t rel_len = strlen(rel_path);
+    int needs_slash = (bundle_len > 0 && bundle_path[bundle_len - 1] != '/');
+    size_t full_len = bundle_len + needs_slash + rel_len + 1;
+    char* full_path = (char*)malloc(full_len);
+    snprintf(full_path, full_len, "%s%s%s",
+        bundle_path,
+        needs_slash ? "/" : "",
+        rel_path);
+    return full_path;
+}
+
 static XXX*
-load_xxx(Cabsim* self, const char* path)
+load_xxx(Cabsim* self, const char* rel_path)
 {
-        XXX* const  xxx  = (XXX*)malloc(sizeof(XXX)); 
-        
-        const size_t path_len = strlen(path);
+    if (!self->bundle_path || !rel_path) return NULL;
 
-        SF_INFO* const info    = &xxx->info;
-        SNDFILE* const sndfile = sf_open(path, SFM_READ, info);
+    XXX* const  xxx  = (XXX*)malloc(sizeof(XXX)); 
+    char* full_path = join_path(self->bundle_path, rel_path);
 
-        if (!sndfile || !info->frames || (info->channels != 1))
-        {
-            free(xxx);
-            return NULL;
-        }
+    SF_INFO* const info    = &xxx->info;
+    SNDFILE* const sndfile = sf_open(full_path, SFM_READ, info);
 
-        // Read data
-        float* const data = malloc(sizeof(float) * info->frames);
-        if (!data)
-        {
-            return NULL;
-        }
-        sf_seek(sndfile, 0ul, SEEK_SET);
-        sf_read_float(sndfile, data, info->frames);
+    if (!sndfile || !info->frames || (info->channels != 1))
+    {
+        free(xxx);
+        free(full_path);
+        return NULL;
+    }
+
+    float* const data = malloc(sizeof(float) * info->frames);
+    if (!data)
+    {
         sf_close(sndfile);
+        free(xxx);
+        free(full_path);
+        return NULL;
+    }
+    sf_seek(sndfile, 0ul, SEEK_SET);
+    sf_read_float(sndfile, data, info->frames);
+    sf_close(sndfile);
 
-        // Fill xxx struct and return it
-        xxx->data     = data;
-        xxx->path     = (char*)malloc(path_len + 1);
-        xxx->path_len = (uint32_t)path_len;
-        memcpy(xxx->path, path, path_len + 1);
+    xxx->data     = data;
+    xxx->path     = full_path; // Save for freeing
+    xxx->path_len = (uint32_t)strlen(full_path);
 
-        return xxx;
+    return xxx;
 }
 
 static void
@@ -754,9 +771,9 @@ free_xxx(Cabsim* self, XXX* xxx)
 
 static LV2_Handle
 instantiate(const LV2_Descriptor*   descriptor,
-double                              samplerate,
-const char*                         bundle_path,
-const LV2_Feature* const* features)
+            double                 samplerate,
+            const char*            bundle_path,
+            const LV2_Feature* const* features)
 {
     Cabsim* cabsim = (Cabsim*)malloc(sizeof(Cabsim));
 
@@ -775,13 +792,16 @@ const LV2_Feature* const* features)
     cabsim->oB = (float *) calloc((SIZE),sizeof(float));
     cabsim->oC = (float *) calloc((SIZE),sizeof(float));
 
+    // Store bundle_path in struct for later use!
+    cabsim->bundle_path = strdup(bundle_path); // CHANGED
+
     const char* wisdomFile = "cabsim.wisdom";
-    //open file A
-    const size_t path_len    = strlen(bundle_path);
-    const size_t file_len    = strlen(wisdomFile);
-    const size_t len         = path_len + file_len;
-    char*        wisdom_path = (char*)malloc(len + 1);
-    snprintf(wisdom_path, len + 1, "%s%s", bundle_path, wisdomFile);
+    size_t path_len    = strlen(bundle_path);
+    size_t file_len    = strlen(wisdomFile);
+    size_t len         = path_len + file_len;
+    char*  wisdom_path = (char*)malloc(len + 2);
+    snprintf(wisdom_path, len + 2, "%s%s%s", bundle_path,
+        (bundle_path[path_len-1] == '/') ? "" : "/", wisdomFile);
 
     if (fftwf_import_wisdom_from_filename(wisdom_path) != 0)
     {
@@ -794,6 +814,7 @@ const LV2_Feature* const* features)
         cabsim->ifft = fftwf_plan_dft_c2r_1d(SIZE, cabsim->convolved, cabsim->outbuf, FFTW_ESTIMATE);
     }
 
+    // Default to one IR for initialization
     cabsim->xxx = load_xxx(cabsim, samplePath[1][1][4]);
 
     free(wisdom_path);
@@ -834,7 +855,6 @@ void activate(LV2_Handle instance)
     cabsim->modelPrevious = 9999;
     cabsim->prevMicPos = 9999;
     cabsim->prevDistance = 99;
-
 }
 
 /**********************************************************************************************************************************************************/
@@ -859,39 +879,36 @@ void run(LV2_Handle instance, uint32_t n_samples)
     const float coef = DB_CO(attenuation);
 
     uint32_t i, j, m;
-    
     int multiplier = (SIZE / n_samples);
 
-    if(n_samples == 128)
-    {
-        multiplier = 4;
-    }
-    else if (n_samples == 256)
-    {
-        multiplier = 2;
-    }
+    if(n_samples == 128) { multiplier = 4; }
+    else if (n_samples == 256) { multiplier = 2; }
 
     //copy inputbuffer and IR buffer with zero padding.
     if((cabsim->modelPrevious!=model || cabsim->prevMicPos!=position) || cabsim->prevDistance!= distance)
     {
-        cabsim->xxx = load_xxx(cabsim,samplePath[distance][position][model]);
+        if (cabsim->xxx) { free_xxx(cabsim, cabsim->xxx); }
+        cabsim->xxx = load_xxx(cabsim, samplePath[distance][position][model]);
 
         cabsim->modelPrevious = model;
         cabsim->prevDistance = distance;
-        cabsim->prevMicPos = position;  //changed micPos to float port. change calculations
+        cabsim->prevMicPos = position;
 
-    	for ( i = 0; i < n_samples * multiplier; i++)
-    	{
-        	inbuf[i] = (i < n_samples) ? (in[i] * coef): 0.0f;
-            IR[i] = (i < n_samples) ? cabsim->xxx->data[i] : 0.0f;
+        for ( i = 0; i < n_samples * multiplier; i++)
+        {
+            inbuf[i] = (i < n_samples) ? (in[i] * coef): 0.0f;
+            if (cabsim->xxx && cabsim->xxx->data)
+                IR[i] = (i < n_samples) ? cabsim->xxx->data[i] : 0.0f;
+            else
+                IR[i] = 0.0f;
         }
         fftwf_execute(cabsim->IRfft);
     }	
     else
     {		
-    	for ( i = 0; i < n_samples * multiplier; i++)
-    	{
-        	inbuf[i] = (i < n_samples) ? (in[i] * coef): 0.0f;
+        for ( i = 0; i < n_samples * multiplier; i++)
+        {
+            inbuf[i] = (i < n_samples) ? (in[i] * coef): 0.0f;
         }
     }
     fftwf_execute(cabsim->fft);
@@ -899,9 +916,7 @@ void run(LV2_Handle instance, uint32_t n_samples)
     //complex multiplication
     for(m = 0; m < ((n_samples / 2) * multiplier) ;m++)
     {
-        //real component
         cabsim->convolved[m][REAL] = cabsim->outComplex[m][REAL] * cabsim->IRout[m][REAL] - cabsim->outComplex[m][IMAG] * cabsim->IRout[m][IMAG];
-        //imaginary component
         cabsim->convolved[m][IMAG] = cabsim->outComplex[m][REAL] * cabsim->IRout[m][IMAG] + cabsim->outComplex[m][IMAG] * cabsim->IRout[m][REAL];
     }
 
@@ -926,15 +941,15 @@ void run(LV2_Handle instance, uint32_t n_samples)
     {
         for ( j = 0; j < n_samples * multiplier; j++)
         {
-            if(j < n_samples)   //runs 128 times filling the output buffer with overap add
+            if(j < n_samples)
             {
                 out[j] = (outbuf[j] / (n_samples * multiplier) + oA[j] + oB[j] + oC[j]) * 0.25f;
             }
             else   
             {
-                oC[j - n_samples] = oB[j]; // 128 samples of usefull data
-                oB[j - n_samples] = oA[j];  //filled with samples 128 to 255 of usefull data
-                oA[j - n_samples] = (outbuf[j] / (n_samples * multiplier)); //filled with 384 samples
+                oC[j - n_samples] = oB[j];
+                oB[j - n_samples] = oA[j];
+                oA[j - n_samples] = (outbuf[j] / (n_samples * multiplier));
             }
         }
     }
@@ -953,12 +968,12 @@ void cleanup(LV2_Handle instance)
     fftwf_destroy_plan(cabsim->fft);
     fftwf_destroy_plan(cabsim->ifft);
     fftwf_destroy_plan(cabsim->IRfft);
-    //free fft memory
     fftwf_free(cabsim->outComplex);
     fftwf_free(cabsim->IRout);
     fftwf_free(cabsim->convolved);
-    //free allocated memory
+
     free_xxx(cabsim, cabsim->xxx);
+    if (cabsim->bundle_path) free(cabsim->bundle_path); // CHANGED
     free(instance);
 }
 /**********************************************************************************************************************************************************/
